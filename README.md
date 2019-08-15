@@ -12,4 +12,4 @@ create [-p|-j] [Repo Name]
 
 <code>-j</code> means put into a Javascript folder
 
-**Put the two files to your <code>%USERPROFILE%</code> **
+**Put the two files into your** <code>%USERPROFILE%</code> 
