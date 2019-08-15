@@ -11,3 +11,5 @@ create [-p|-j] [Repo Name]
 <code>-p</code> means put into a Python folder
 
 <code>-j</code> means put into a Javascript folder
+
+**Put the two files to your <code>%USERPROFILE%</code> **
