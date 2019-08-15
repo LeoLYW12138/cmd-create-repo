@@ -2,11 +2,11 @@
 SETLOCAL ENABLEEXTENSIONS
 SET me=%~n0
 SET parent=%~dp0
-SET PYTHONPATH="Your Python Directory" REM e.g."E:\coding\Python"
-SET JSPATH="Your Javascript Directory" REM e.g."E:\coding\Javascript"
+SET PYTHONPATH="Your Python Directory"
+SET JSPATH="Your Javascript Directory"
 SET lang=%1
 SET filename=%2
-SET fname=%filename:"=% REM filename without double quotes
+SET fname=%filename:"=%
 
 IF "%lang%" == "-p" (
     E:
@@ -33,7 +33,7 @@ IF EXIST "%fname%\NUL" (
     git init
     git add README.md
     git commit -m "Initial commit"
-    git remote add origin https://github.com/LeoLYW12138/%fname%.git
+    git remote add origin https://github.com/UserName/%fname%.git
     git push -u origin master
     echo successfully initialize a repository %fname%.git
 )
